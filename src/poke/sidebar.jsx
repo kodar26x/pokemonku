@@ -14,7 +14,7 @@ class Navbar extends Component {
                             <a className="nav-item nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
                             <a className="nav-item nav-link" href="#">Features</a>
                         <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                            <input class="form-control mr-sm-2" type="search" placeholder="Cari Pokemon" aria-label="Search" />
                         </form>
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                         </div>
