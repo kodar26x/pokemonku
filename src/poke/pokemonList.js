@@ -28,7 +28,7 @@ function PokemonList({ pokemon }) {
 
                             <Grid container>
                                 <Grid item xs={6}>
-                                    <div className='pokeName'>
+                                    <div className='pokeName'> 
                                         {pokemon.name}
                                     </div>
 
