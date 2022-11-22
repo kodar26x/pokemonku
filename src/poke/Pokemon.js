@@ -11,7 +11,7 @@ import Fluter from './foolter.jsx';
 function Percobaan() {
     const [pokemonData, setPokemonData] = useState([])
     const [loading, isLoading] = useState(true)
-    const apiURL = 'https://pokeapi.co/api/v2/pokemon?limit=30'
+    const apiURL = 'https://pokeapi.co/api/v2/pokemon?limit=200'
 
     useEffect(() => {
         async function fetchData() {
@@ -44,6 +44,7 @@ function Percobaan() {
                     })
                 )}
             </div>
+            
             <Fluter />
         </>
     );

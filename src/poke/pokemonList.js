@@ -24,9 +24,6 @@ function PokemonList({ pokemon }) {
     console.log(pokemon)
     return (
         <>
-
-
-
             <div className='gridContainer'>
                 <div className={classes.grid}>
                     <div className={'pokeType ' + pokemon.types[0].type.name}>

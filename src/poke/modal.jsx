@@ -24,27 +24,43 @@ function DetailModal(props) {
                     <Container>
                         <Row>
                             <Col xs={12} md={8}>
-                                <img className='poke' src={props.image} />
+                                <img className='poke' src={`http://play.pokemonshowdown.com/sprites/xyani/${props.name}.gif`} />
 
                             </Col>
                             <Col xs={6} md={4}>
                                 <div>
-                                    {/* <h4>{props.stats[0].stats.name}</h4>  */}
+                                    <h4>Hp</h4>
                                     {/* {props?.stats[0]?.base_stat} */}
                                 </div>
                             </Col>
                         </Row>
+                        <Row><br /></Row>
                         <Row>
                             <Col xs={6} md={4}>
 
                             </Col>
                             <Col xs={6} md={4}>
-                               
+
                             </Col>
                             <Col xs={6} md={4}>
                                 <div>
-                                <h5>Defens</h5>
-                                 
+                                    <h5>Attack</h5>
+
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row><br /></Row>
+                        <Row>
+                            <Col xs={6} md={4}>
+
+                            </Col>
+                            <Col xs={6} md={4}>
+
+                            </Col>
+                            <Col xs={6} md={4}>
+                                <div>
+                                    <h5>Defens</h5>
+
                                 </div>
                             </Col>
                         </Row>
